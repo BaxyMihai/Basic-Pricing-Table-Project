@@ -1,0 +1,133 @@
+div ul li { 
+    list-style-type: none;
+  }
+
+  .title { 
+    font-size: 2rem;
+    color: #F5EEE6;
+    
+    
+  }
+
+  .pricing-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 20%;
+  }
+
+  .pricing-plan { 
+    background-color: #F5EEE6;
+    margin: 50px;
+    height: 500px;
+    width: 400px;
+    border: 10px solid white; 
+    border-radius: 7%;
+  }
+
+  *.pricing-plan { 
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+
+  }
+
+  p{
+    font-size: 13px;
+    padding-bottom: 5px;
+    font-weight: ;
+    
+  }
+
+  .hr1 { 
+    border: 1px solid #F5EEE6;
+    width: 60%;
+  }
+
+  .hr2{
+    border: 1px solid #F5EEE6;
+    width: 60%;
+  }
+
+  .hr3{
+    border: 1px solid #F5EEE6;
+    width: 60%;
+  }
+
+  .hr-price{
+    border: 1px solid #AFC8AD;
+    width: 40%;
+    margin-top:0px;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+
+  h2{
+    margin-bottom: 0px;
+  }
+
+  body {
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+
+  .plan-button1{
+    border: 0px;
+    background: rgb(184,176,21);
+    background: linear-gradient(140deg, rgba(184,176,21,1) 18%, rgba(195,29,17,1) 39%, rgba(255,0,155,1) 100%);
+    font-family: 'Kanit', sans-serif;
+    color: #F5EEE6;
+    border-radius: 10%;
+    width: 60px;
+    height: 30px;
+    
+  }
+
+  .plan-button2{
+    border: 0px;
+    background: rgb(21,153,184);
+    background: linear-gradient(140deg, rgba(21,153,184,1) 18%, rgba(13,28,186,1) 39%, rgba(25,0,255,1) 100%);
+    font-family: 'Kanit', sans-serif;
+    color: #F5EEE6;
+    border-radius: 10%;
+    width: 60px;
+    height: 30px;
+  }
+
+  .plan-button3{
+    border: 0px;
+    background: rgb(63,184,21);
+    background: linear-gradient(151deg, rgba(63,184,21,1) 0%, rgba(13,173,186,1) 41%, rgba(0,159,255,1) 100%);
+    font-family: 'Kanit', sans-serif;
+    color: #F5EEE6;
+    border-radius: 10%;
+    width: 60px;
+    height: 30px;
+  }
+
+  .plan-title1 { 
+    background: rgb(184,176,21);
+    background: linear-gradient(140deg, rgba(184,176,21,1) 18%, rgba(195,29,17,1) 39%, rgba(255,0,155,1) 100%);
+  }
+
+  .plan-title2 { 
+    background: rgb(21,153,184);
+    background: linear-gradient(140deg, rgba(21,153,184,1) 18%, rgba(13,28,186,1) 39%, rgba(25,0,255,1) 100%);
+  }
+
+  .plan-title3 { 
+    background: rgb(63,184,21);
+    background: linear-gradient(151deg, rgba(63,184,21,1) 0%, rgba(13,173,186,1) 41%, rgba(0,159,255,1) 100%);
+  }
+
+  .plan-price { 
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+
+  /* Hint: What can you do with a media query and flexbox? */
+  @media (max-width: 1250px) {
+    
+  }
